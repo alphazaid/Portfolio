@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next web</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -51,7 +51,10 @@
                 <h2>Houston, Texas</h2>
             </div>
             <div class="main__vid--container">
-                <img src = "images/skyline.jpg" alt = "pic" id = "myVideo"/>
+                <img src = "images/rainbowsky.jpg" alt = "pic" id = "myVideo"/>
+                <!-- <video autoplay muted loop id="myVideo">
+                    <source src="images/earth.mp4" type="video/mp4">
+                  </video> -->
             </div>
         </div>
     </div>
@@ -76,38 +79,48 @@
     <div class="projects">
         <div class="project__container">
             
-            <div class="project__title">
-                <h1>Dutch Solitaire</h1>
-                <h1>Finance Tracker</h1>
-                <h1>Website Portfolio</h1>
-            </div>
-            <div class="project__description">
-                
-                <h2>
-                    This java-based desktop game was a game created by me using the java graphics interface.
-                    It allows users to take a set of randomly ordered cards in a 4x13 layout where the player can 
-                    only move the cards based on certain rules. Once the cards are all in order by number and suit
-                    the player wins.
-                </h2>
-                <h2>
-                    
-                    I created this desktop application using Python and SQL to track and analyze mine as well as 
-                    some others finances to help them get a better organization and handle of their money. This application
-                    creates a UI created by python using the many libraries and then takes the financial information input by the 
-                    user to give them a report for them to better manage their money. The financial information is stored in a database
-                    made by SQL so that they can save the finances and other information input by them as well as have their own login
-                    to connect to that database or create a new one.
-                </h2>
-                <h2>
-                    For this project, I used JavaScript, HTML, and CSS to create a website to showcase my portfolio.
-                    During this project I combined used HTML to create the site, CSS to format, and JScript to create 
-                    functions that my website would perform. I optimized the website to have cross-platform compatibility so 
-                    that it can work with laptop, tablets, and phones.
-                </h2>
-            </div>
+            <h1>Projects</h1>
+            <ul class="project__description">
+                <li>
+                    <h1>Dutch Solitaire</h1>
+                    <p>
+                        This java-based desktop game was a game created by me using the java graphics interface.
+                        It allows users to take a set of randomly ordered cards in a 4x13 layout where the player can 
+                        only move the cards based on certain rules. Once the cards are all in order by number and suit
+                        the player wins.
+                    </p>
+                    <a href="https://github.com/alphazaid/DutchSolitaire" class="gitlink" target="_blank"></a>
+                </li>
+                <li>
+                    <h1>Finance Tracker</h1>
+                    <p>
+                        
+                        I created this desktop application using Python and SQL to track and analyze mine as well as 
+                        some others finances to help them get a better organization and handle of their money. This application
+                        creates a UI created by python using the many libraries and then takes the financial information input by the 
+                        user to give them a report for them to better manage their money. The financial information is stored in a database
+                        made by SQL so that they can save the finances and other information input by them as well as have their own login
+                        to connect to that database or create a new one.
+                    </p>
+                    <a href="/" class="gitlink" target="_blank"></a>
+                </li>
+                <li>
+                    <h1>Website Portfolio</h1>
+                    <p>
+                        For this project, I used JavaScript, HTML, and CSS to create a website to showcase my portfolio.
+                        During this project I combined used HTML to create the site, CSS to format, and JScript to create 
+                        functions that my website would perform. I optimized the website to have cross-platform compatibility so 
+                        that it can work with laptop, tablets, and phones.
+                    </p>
+                    <a href="https://github.com/alphazaid/Portfolio" class="gitlink" target="_blank"></a>
+                </li>
+            </ul>
+            
             
         </div>
     </div>
+    
+    
     <script src = 'app.js'></script>
 </body>
 </html>
