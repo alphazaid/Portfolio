@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Nanum+Gothic&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8a183fc37b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -19,7 +21,7 @@
                 <span class="bar"></span>
             </div>
             <ul class="navbar__menu">
-                <li class="navbar__item">
+                <!-- <li class="navbar__item">
                     <a href="/" class="navbar__links">
                         Intro
                     </a>
@@ -33,10 +35,10 @@
                     <a href="/" class="navbar__links">
                         Skills
                     </a>
-                </li>
+                </li> -->
                 <li class="navbar__btn">
-                    <a href="/" class="button">
-                        Home
+                    <a href="mailto: zaidmotiwala2001@gmail.com" class="button">
+                        Contact
                     </a>
                 </li>
             </ul>
@@ -62,7 +64,7 @@
     <div class="intro">
         <div class="intro__container">
             <div class="intro__title">
-                <h1>About Me</h1>
+                <h1>Hey!</h1>
             </div>
             <div class="intro__content">
                 <p>
@@ -79,7 +81,7 @@
     <div class="projects">
         <div class="project__container">
             
-            <h1>Projects</h1>
+            <h1 class = "projects__title"><span>Projects</span></h1>
             <ul class="project__description">
                 <li>
                     <h1>Dutch Solitaire</h1>
@@ -90,6 +92,7 @@
                         the player wins.
                     </p>
                     <a href="https://github.com/alphazaid/DutchSolitaire" class="gitlink" target="_blank"></a>
+                    <!-- <p class="text-center"></i><a href="" class="btn btn-action"><i class="fa-brands fa-github"></i>Github</a></p> -->
                 </li>
                 <li>
                     <h1>Finance Tracker</h1>
@@ -103,6 +106,7 @@
                         to connect to that database or create a new one.
                     </p>
                     <a href="/" class="gitlink" target="_blank"></a>
+                    <!-- <p class="text-center"><a href="" class="btn btn-action"><i class="fa-brands fa-github"></i>Github</a></p> -->
                 </li>
                 <li>
                     <h1>Website Portfolio</h1>
@@ -113,13 +117,81 @@
                         that it can work with laptop, tablets, and phones.
                     </p>
                     <a href="https://github.com/alphazaid/Portfolio" class="gitlink" target="_blank"></a>
+                    <!-- <p class="text-center"><a href="" class="btn btn-action"><i class="fa-brands fa-github"></i>Github</a></p> -->
                 </li>
             </ul>
             
             
         </div>
     </div>
-    
+    <div class="skillslist">
+        <div class="skills__container">
+            <h2 class = projects__title><span>Skills </span></h2>
+            <div class="skills">
+                <div class="details">
+                  <span><i class="fa-brands fa-java"></i>Java </i></span>
+                  <span>Advanced</span>
+                </div>
+                <div class="sbar">
+                   <div id="advanced-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-brands fa-python"></i>Python </i></span>
+                  <span>Advanced</span>
+                </div>
+                <div class="sbar">
+                   <div id="advanced-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-solid fa-code"></i>C++ </i></span>
+                  <span>Advanced</span>
+                </div>
+                <div class="sbar">
+                   <div id="advanced-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-brands fa-html5"></i>HTML </i></span>
+                  <span>Intermediate</span>
+                </div>
+                <div class="sbar">
+                   <div id="intermediate-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-solid fa-file-code"></i>CSS </i></span>
+                  <span>Intermediate</span>
+                </div>
+                <div class="sbar">
+                   <div id="intermediate-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-brands fa-js"></i>JavaScript </i></span>
+                  <span>Basic</span>
+                </div>
+                <div class="sbar">
+                   <div id="basic-bar"></div>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="details">
+                  <span><i class="fa-solid fa-database"></i>SQL </i></span>
+                  <span>Basic</span>
+                </div>
+                <div class="sbar">
+                   <div id="basic-bar"></div>
+                </div>
+              </div>
+        </div>
+      </div>
     
     <script src = 'app.js'></script>
 </body>

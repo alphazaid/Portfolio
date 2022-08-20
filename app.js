@@ -21,4 +21,3 @@ function readmore() {
       moreText.style.display = "block";
     }
 }
-
